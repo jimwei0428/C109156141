@@ -1,0 +1,67 @@
+day=input("請輸入月及日為:").split()
+m=day[0]
+d=day[1]
+m=int(m)
+d=int(d)
+if(m==1):
+    if(d>20):
+        print("星座為Aquarius")
+    else:
+        print("星座為Capricorn")
+elif(m==2):
+    if(d>18):
+        print("星座為Pisces")
+    else:
+        print("星座為Aquarius")
+elif(m==3):
+    if(d>20):
+        print("星座為Aries")
+    else:
+        print("星座為Pisces")
+elif(m==4):
+    if(d>20):
+        print("星座為Taurus")
+    else:
+        print("星座為Aries")
+elif(m==5):
+    if(d>21):
+        print("星座為Gemini")
+    else:
+        print("星座為Taurus")
+elif(m==6):
+    if(d>21):
+        print("星座為Cancer")
+    else:
+        print("星座為Gemini")
+elif(m==7):
+    if(d>22):
+        print("星座為Leo")
+    else:
+        print("星座為Cancer")
+elif(m==8):
+    if(d>23):
+        print("星座為Virgo")
+    else:
+        print("星座為Leo")
+elif(m==9):
+    if(d>23):
+        print("星座為Libra")
+    else:
+        print("星座為Virgo")
+elif(m==10):
+    if(d>23):
+        print("星座為Scorpio")
+    else:
+        print("星座為Libra")
+elif(m==11):
+    if(d>22):
+        print("星座為Sagittarius")
+    else:
+        print("星座為Scorpio")
+elif(m==12):
+    if(d>21):
+        print("星座為Capricorn")
+    else:
+        print("星座為Sagittarius")
+
+

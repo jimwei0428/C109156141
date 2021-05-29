@@ -1,0 +1,8 @@
+A=int(1)
+J=int(11)
+Q=int(12)
+K=int(13)
+a=input("輸入五張牌:").split(" ")
+list(a)
+b=eval(a[0])+eval(a[1])+eval(a[2])+eval(a[3])+eval(a[4])
+print(b)
